@@ -1,0 +1,104 @@
+
+body {
+    background-color: #EDEFEE;
+    font-family: 'Markazi Text' serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+header > img {
+    display: block;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+}
+
+section {
+    display: flex;
+}
+
+article {
+    flex: 1;
+    padding: 1%;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+}
+
+footer div {
+    flex: 1;
+}
+
+main > section > article > img {
+    display: inline-block;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.navigation_bar {
+    background-color: #272728;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.navigation_bar li {
+    list-style-type: none;
+}
+
+.navigation_bar a {
+    display: inline-block;
+    padding: 25px;
+    margin: 0 25px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.navigation_bar a:hover {
+    background-color: lightsteelblue;
+}
+
+#promotional_banner {
+    background-image: url("../media/Hair.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #6d55f5;
+}
+
+#info_banner {
+    background: #6d55f5;
+    border-style: hidden;
+    border-radius: 10px;
+    border-spacing: 0rem;
+    margin: 2%;
+}
+
+#logo_footer > img {
+    max-width: 50px;
+}
